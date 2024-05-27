@@ -390,23 +390,56 @@ btnSort.addEventListener('click', function (e) {
 
 // console.log(Number('230_000'));
 
-console.log(2 ** 53 - 1);
-console.log(Number.MAX_SAFE_INTEGER);
-console.log(2 ** 53 + 1);
-console.log(2 ** 53 + 2);
-console.log(2 ** 53 + 3);
-console.log(2 ** 53 + 4);
+// console.log(2 ** 53 - 1);
+// console.log(Number.MAX_SAFE_INTEGER);
+// console.log(2 ** 53 + 1);
+// console.log(2 ** 53 + 2);
+// console.log(2 ** 53 + 3);
+// console.log(2 ** 53 + 4);
 
-console.log(4127412798471289471298471n);
-console.log(BigInt(12347812937128371237891));
-console.log(12381293912371n * 100n);
+// console.log(4127412798471289471298471n);
+// console.log(BigInt(12347812937128371237891));
+// console.log(12381293912371n * 100n);
 
-const huge = 12378129739187398127831n;
-const num = 23;
-console.log(huge * BigInt(num));
+// const huge = 12378129739187398127831n;
+// const num = 23;
+// console.log(huge * BigInt(num));
 
-console.log(20n === 20);
+// console.log(20n === 20);
 
-console.log(huge + ' is REALLY big!!!!');
+// console.log(huge + ' is REALLY big!!!!');
 
-console.log(11n / 3n);
+// console.log(11n / 3n);
+
+// const now = new Date();
+// console.log(now);
+
+// console.log(new Date('Tue May 28 2024'));
+// console.log(new Date('December 23,2015'));
+// console.log(new Date(account1.movementsDates[0]));
+
+// console.log(new Date(2037, 10, 19, 15, 23, 5));
+// console.log(new Date(2037, 10, 31));
+
+// console.log(new Date(0));
+// console.log(new Date(3 * 24 * 60 * 60 * 1000));
+
+// Working with dates
+const future = new Date(2037, 10, 19, 15, 23);
+console.log(future);
+console.log(future.getFullYear());
+console.log(future.getMonth());
+console.log(future.getDate());
+console.log(future.getMonth());
+console.log(future.getHours());
+console.log(future.getMinutes());
+console.log(future.getSeconds());
+console.log(future.toISOString());
+console.log(future.getTime());
+
+console.log(new Date(2142228180000));
+
+console.log(Date.now());
+
+future.setFullYear(2040);
+console.log(future);
